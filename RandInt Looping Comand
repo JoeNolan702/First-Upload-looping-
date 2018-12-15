@@ -1,0 +1,21 @@
+import random
+import time
+
+
+def doSomething():
+    x = int(random.randint(1, 1000))
+    print(x)
+    if x > 500 or x < 100:
+        print("Yay")
+        return
+    else:
+        print("aww")
+        return
+
+def main():
+    doSomething()
+
+
+while True:
+    main()
+    time.sleep(2)
